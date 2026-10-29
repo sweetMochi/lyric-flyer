@@ -1,0 +1,57 @@
+// 第一階段使用固定的深色主題，色彩一律經由下列 CSS 變數取用
+:root {
+  color-scheme: dark;
+
+  --color-bg: #121212;
+  --color-text: #f1f1f1;
+  --color-text-muted: #a0a0a0;
+  --color-accent: #ff4e6a;
+
+  --font-sans:
+    system-ui, -apple-system, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei',
+    sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+// 各畫面完成前的佔位版面
+.placeholder {
+  padding: 1.5rem 1rem;
+
+  h1 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  p {
+    margin: 0;
+    color: var(--color-text-muted);
+  }
+}

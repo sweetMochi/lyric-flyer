@@ -1,0 +1,7 @@
+dist
+coverage
+.angular
+node_modules
+package-lock.json
+# 文件為手寫內容，不交給 Prettier 排版
+*.md
