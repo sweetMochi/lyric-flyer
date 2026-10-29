@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core'
 
 @Component({
   selector: 'app-library-manager-page',
@@ -11,5 +11,5 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
   `,
 })
 export class LibraryManagerPage {
-  readonly folderId = input.required<string>();
+  readonly folderId = input.required<string>()
 }

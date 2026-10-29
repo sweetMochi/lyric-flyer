@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core'
 
 @Component({
   selector: 'app-play-page',
@@ -11,5 +11,5 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
   `,
 })
 export class PlayPage {
-  readonly songId = input.required<string>();
+  readonly songId = input.required<string>()
 }

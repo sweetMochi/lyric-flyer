@@ -1,9 +1,9 @@
 // @ts-check
-const eslint = require('@eslint/js');
-const { defineConfig } = require('eslint/config');
-const tseslint = require('typescript-eslint');
-const angular = require('angular-eslint');
-const prettier = require('eslint-config-prettier');
+const eslint = require('@eslint/js')
+const { defineConfig } = require('eslint/config')
+const tseslint = require('typescript-eslint')
+const angular = require('angular-eslint')
+const prettier = require('eslint-config-prettier')
 
 module.exports = defineConfig([
   {
@@ -41,4 +41,4 @@ module.exports = defineConfig([
   },
   // 排版交給 Prettier，關閉與其衝突的規則
   prettier,
-]);
+])

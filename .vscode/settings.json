@@ -1,0 +1,6 @@
+{
+  // 存檔時以 Prettier 格式化，規則見 .prettierrc，略過的檔案見 .prettierignore
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true
+}
